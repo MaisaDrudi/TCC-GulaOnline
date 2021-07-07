@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-menu-button color="secondary" slot="start"></ion-menu-button>
+    <ion-title color="secondary">GULA ONLINE</ion-title>
+  <!--<ion-title>perfil</ion-title>-->  
+  </ion-toolbar>
+</ion-header>
+
+<ion-content color="tertiary">
+  <ion-toolbar color="secondary">
+   <ion-list *ngFor="let cm of cmm">
+    <ion-item>
+      <ion-list>
+     <!--<ion-label>{{cm.id_ca}}</ion-label>--> 
+      <ion-label>Nome:{{cm.nome}}</ion-label>
+      <ion-label> CPF:{{cm.cpf}}</ion-label>
+      <ion-label>FONE:{{cm.fone}}</ion-label>
+      <ion-label>BAIRRO:{{cm.bairro}}</ion-label>
+      <ion-label>RUA:{{cm.rua}}</ion-label>
+      <ion-label>NUMERO:{{cm.numero}}</ion-label>
+      <ion-label>CIDADE:{{cm.cidade}}</ion-label>
+      <ion-label>UF:{{cm.uf}}</ion-label>
+      <ion-label>CNPJ:{{cm.cnpj}}</ion-label>
+      <ion-label>EMPRESA:{{cm.linksite}}</ion-label>
+      <ion-label>EMAIL:{{cm.email}}</ion-label> 
+      </ion-list>
+     
+    </ion-item>
+  </ion-list>
+  </ion-toolbar>
+</ion-content>

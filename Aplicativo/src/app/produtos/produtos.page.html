@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-menu-button color="secondary" slot="start"></ion-menu-button>
+    <ion-title color="secondary">GULA ONLINE</ion-title>
+  <!--<ion-title>produtos</ion-title>-->
+  </ion-toolbar>
+</ion-header>
+
+<ion-content color="tertiary">
+
+  <ion-toolbar color="secondary">
+    <ion-img src="/assets/headerHome.png"></ion-img>
+    <center><h3>LOJAS CADASTRADAS</h3></center>
+    <ion-list> 
+      <ion-item>
+        <ion-list>
+          <ion-label *ngFor="let em of emm" (click)="showDetail(em.id_ca)">
+            <ion-icon name="fast-food"></ion-icon>{{em.linksite}}
+          </ion-label>
+        </ion-list>
+      </ion-item>
+    </ion-list>
+  </ion-toolbar>
+  <ion-toolbar color="tertiary">
+  <center><ion-title color="secondary"></ion-title></center> 
+  </ion-toolbar>
+  
+</ion-content>

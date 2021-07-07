@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-toolbar color="primary">
+  <!--<ion-menu-button color="secondary" slot="start"></ion-menu-button>-->  
+   <center><ion-title color="secondary">LOGIN</ion-title></center> 
+  </ion-toolbar>
+</ion-header>
+
+<ion-content color="secondary">
+  <ion-img src="/assets/logoHomeFundoBranco.png"></ion-img>
+  <div>
+    <ion-item>
+      <ion-label color="tertiary" position="floating" class="fon" id="email">Email <ion-icon name="mail" slot="start">
+        </ion-icon>
+      </ion-label>
+      <ion-input class="fon"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label color="tertiary" position="floating" class="fon" id="senha">Senha <ion-icon name="key" slot="start">
+        </ion-icon>
+      </ion-label>
+      <ion-input class="fon"></ion-input>
+    </ion-item>
+  </div>
+  <center>
+  <ion-button color="tertiary" shape="round" fill="outline" (click)="acessar('home')">Logar</ion-button>
+  <!--<ion-button color="primary" shape="round" fill="outline" (click)="acessar('cadastro')">Cadastrar-se</ion-button>-->
+</center>
+  <ion-toolbar color="tertiary"> 
+   </ion-toolbar>
+
+</ion-content>

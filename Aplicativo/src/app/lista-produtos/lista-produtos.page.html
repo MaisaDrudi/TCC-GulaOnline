@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-menu-button color="secondary" slot="start"></ion-menu-button>
+    <ion-title color="secondary">GULA ONLINE</ion-title>
+  <!--<ion-title>lista de Produtos</ion-title>-->  
+  </ion-toolbar>
+  <ion-img src="/assets/fundoListaProdutos.jpg"></ion-img>
+</ion-header>
+
+<center><h3>Lista de Produtos</h3></center>
+
+<ion-content>
+
+  <ion-list *ngFor="let am of amm">
+    <ion-item>
+     <!--<ion-label>{{am.id_ca}}</ion-label>--> 
+      <ion-label>{{am.nomeali}}</ion-label>
+      <ion-label>{{am.descricao}}</ion-label>
+      <ion-label>{{am.qtd}}</ion-label>
+      <ion-label>{{am.preco}}</ion-label>
+     <!--<ion-checkbox (ionChange)="checkbox($event, am.nomeali)" [disabled]="deshabilitado" color="primary" slot="end" [checked]="adiciona_produtos"></ion-checkbox>--> 
+    </ion-item>
+  </ion-list>
+  
+  <ion-toolbar color="tertiary">
+    <center><ion-title color="secondary"></ion-title></center> 
+    </ion-toolbar>
+
+</ion-content>

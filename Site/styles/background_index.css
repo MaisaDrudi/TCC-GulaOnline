@@ -1,0 +1,285 @@
+body {
+    background-image: url('../resources/img/k.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.fundo{
+    background-color: #ffffff;
+    width: 100%;
+}
+   
+video{
+    width: 550px;
+    height: 550px;
+    margin-right: 50px;
+}
+
+.titulo{
+    color: #ffffff;
+    font-size: 70px;
+}
+   
+p{
+    font-size: 20px;
+}
+
+footer {
+    background-color: #000039;
+    color: white;
+}
+
+header {
+    height: 130px;
+    background-color: #FF8C00;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    width: 180px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .logo img {
+    height: 90%;
+}
+
+header .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+    font-weight: 550;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header .options {
+    width: 200px;
+    display: flex;
+    font-size: 15px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+header .options input {
+    width: 150px;
+    height: 30px;
+    margin: 5px;
+    background: none;
+    border-radius: 30px;
+    border: #6368a1 2px solid;
+    color: #ffffff;
+    outline: none;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+header .options input:hover {
+    width: 180px;
+    height: 50px;
+    background: #232374;
+    color: #ffffff;
+}
+
+h1{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h3{
+    text-align: center;
+}
+
+.conteudo{
+    background-color: #ffffff;
+}
+
+.conteudo th{
+    font-size: 25px;
+}
+
+.contact img{
+    width: 90px;
+}
+
+.icon-contact {
+    background-color: white;
+    border-radius: 50%;
+    border: solid 2px white;
+    margin: 5px;
+}
+.fundo_cont{
+    color: #ffffff;
+    background-color: #65657e63;
+    opacity: 9;
+}
+
+.fundo_cont a{
+    color: #ffffff;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 5px;
+}
+
+.container p{
+    width: 490px;
+    margin: 20px;
+    text-align: justify;
+}
+
+.container img{
+    width: 40px;
+}
+
+.container #icone{
+    width: 70px;
+}
+
+.container .images{
+    margin: 50px;
+}
+
+.planos{
+    height: 30px;
+    width: 400px;
+    text-align: center;
+    text-align-last: center;
+    align-items: center;
+}
+
+.planos b{
+    font-size: 45px;
+}
+
+#vlr{
+    width: 100px;
+    height: 25px;
+    margin-left: 100px;
+    background-color: #ff8c00a6;
+    color: #ffffff;
+}
+
+.container .buto input{
+    width: 150px;
+    height: 55px;
+    margin-left: 150px;
+    margin-right: 130px;
+    background: #000039;
+    border-radius: 30px;
+    border: #ececec 2px solid;
+    color: #ffffff;
+    display: flex;
+    font-size: 17px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.container .tutorial {
+    margin: 20px;
+}
+
+a{
+    color: #000;
+}
+
+.container .element {
+    margin: 80px;
+    display: flex;
+    width: 20%;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: dashed 2px #000000;
+    margin-top: 20px;
+}
+
+.container .element img {
+    width: 130px;
+    border-radius: 100px;
+}
+
+.container .back1 {
+    background-color: #ff9aa2;
+}
+
+.container .back2 {
+    background-color: #ffdac1;
+}
+
+.container .back3 {
+    background-color: #e2f0cb;
+}
+
+.container .back4 {
+    background-color: #b5ead7;
+}
+
+.container .back5 {
+    background-color: #c7ceea;
+}
+
+.fundo_conta{
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.274);
+    width: 100%;
+}
+
+.benditoP {
+    font-size: 20px;
+    text-align: justify;
+    padding: 80px;
+}
+@media (max-width: 950px) {
+        .iconimgs {
+            margin: 20px;
+        }
+
+        .iconimg {
+            margin: 10px;
+            padding: 10px;
+        }
+
+        .iconimg img {
+            width: 150px;
+            height: 120px;;
+            border: solid 2px #000000;
+        }
+
+        .iconimg p{
+            margin-top: 20px;
+        }
+    }
+
+    .icon-contact {
+        background-color: white;
+        border-radius: 50%;
+        border: solid 2px white;
+        margin: 5px;
+    }
+
+    .login_input_sweet input{
+        margin: 10px;
+    }
+
+
